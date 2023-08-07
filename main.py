@@ -84,7 +84,7 @@ def check_password(user, entered_password):
         login_user(user=user)
         return True
     else:
-        return False\
+        return False
 
 
 
