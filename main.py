@@ -259,3 +259,6 @@ def contact():
         send_mail(name, email, phone, msg)
         return render_template("contact.html", msg_sent=True)
     return render_template("contact.html", msg_sent=False)
+  
+if __name__ == "__main__":
+    app.run(debug=True, port=5002)
